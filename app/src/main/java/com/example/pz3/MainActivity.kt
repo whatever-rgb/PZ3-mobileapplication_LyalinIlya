@@ -30,6 +30,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+private const val testVar = 0
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
